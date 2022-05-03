@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="icon" type="image/x-icon" href="./imagenes/icono.png">
+	<title>Fly Airlines</title>
+</head>
+
+<body>
+	<div id="contenedor">
+		<img id="logo" src="./imagenes/avion3.png" alt="Logo">
+		<h1 id="titulo">Introduzca sus datos</h1>
+		<br>
+		<form>
+			<fieldset>
+				<label>Nombre:</label>
+				<input type="text" placeholder="Nombre">
+				<br>
+				<label>Apellidos:</label>
+				<input type="text" placeholder="Apellidos">
+				<br>
+				<label>DNI:</label>
+				<input type="text" placeholder="Dni">
+				<br>
+				<label>Correo Electronico:</label>
+				<input type="text" placeholder="ejemplo@gmail.com">
+				<br>
+				<label>Género:</label>
+				<input type="radio" name="tipoGénero" value="Mujer"><b>Mujer</b>
+				<input type="radio" name="tipoGénero" value="Hombre" class="blanco"><b class="blanco">Hombre</b>
+				<br><br>
+				<label>¿Eres mayor de edad?</label>
+				<br>
+				<input type="radio" name="mayorEdad" value="Mayor" class="mayorEdad">Si
+				<input type="radio" name="mayorEdad" value="Menor" class="mayorEdad">No
+			</fieldset>
+		</form>
+	</div>
+	<input id="submit" type="submit" value="Enviar información">
+	<input id="reset" type="reset" value="Borrar información">
+
+</body>
+
+</html>

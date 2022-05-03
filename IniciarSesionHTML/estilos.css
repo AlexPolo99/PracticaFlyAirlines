@@ -1,0 +1,461 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	text-align: center;
+	background: radial-gradient(#0e2f3f, #031e2f, #000102);
+}
+
+html{
+	height: 100%;
+}
+  
+.contenedorForm{
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: 5fr repeat(3, 1fr);
+    grid-template-rows: 0.5fr 3fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 13%;
+    }
+  
+a{
+  color: #ffffff;
+  font-size: 2.2vh;
+  text-decoration: none;
+}
+
+a:hover{
+  transition: 0.5s;
+  color: rgba(255, 255, 255, 0.635);
+}
+
+#imagenAvion{
+  width: 100%;
+}
+
+.div1 { 
+  grid-area: 1 / 1 / 2 / 2; 
+  color: #efefef;
+  font-size: 4vh;
+}
+  
+.div2 {
+   grid-area: 1 / 2 / 2 / 3; 
+   text-align: end;
+}
+    
+.div3 { 
+  grid-area: 1 / 3 / 2 / 4; 
+  text-align: end;
+}
+    
+  .div4 {
+     grid-area: 1 / 4 / 2 / 5; 
+     text-align: end;
+  }
+    
+  .contenedorForm 
+  {
+    z-index: 1;
+    grid-area: 2 / 1 / 3 / 3; 
+    background-color: #efefef;
+  }
+    
+  .div6 { 
+    grid-area: 2 / 3 / 3 / 5; 
+  }
+    
+    
+  h3 {
+    margin: 0;
+  }
+  
+  input:focus, textarea:focus {
+    outline: 3px solid rgba(11, 1, 105, 0.386);
+  }
+  
+  input,textarea,button {
+    width: 100%;
+    border: 1px solid #000;
+  }
+  
+  .wrapper > * {
+    padding: 1em;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  form p {
+    margin: 0;
+  }
+  
+  button,
+  input,
+  textarea {
+    padding: 1em;
+  }
+  
+  button {
+    background: lightgrey;
+    width: 100%;
+    border: 0;
+  }
+  button:hover, button:focus {
+    background: rgba(1, 12, 52, 0.857);
+    outline: 0;
+  }
+  
+  form {
+    padding-bottom: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+  }
+  form p {
+    grid-column: 1 / 2;
+  }
+  
+  .input-file-wrapper {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  
+.estrella{
+	z-index: 0;
+	width: 2px;
+	height: 2px;
+	background: white;
+	position: absolute;
+	border-radius: 50%;
+}
+
+._1{
+	top: 30%;
+	left: 50%;
+	animation: estrella_1 1.2s infinite;
+}
+
+._2{
+	top: 25%;
+	left: 70%;
+	animation: estrella_1 2.2s infinite;
+}
+
+._3{
+	top: 20%;
+	left: 30%;
+	animation: estrella_1 4.2s infinite;
+}
+
+._4{
+	top: 80%;
+	left: 20%;
+	animation: estrella_1 2.7s infinite;
+}
+
+._5{
+	top: 60%;
+	left: 70%;
+	animation: estrella_1 5.2s infinite;
+}
+
+._6{
+	top: 50%;
+	left: 30%;
+	animation: estrella_1 4.2s infinite;
+}
+
+._7{
+	top: 20%;
+	left: 40%;
+	animation: estrella_1 2.7s infinite;
+}
+
+._8{
+	top: 10%;
+	left: 23%;
+	animation: estrella_1 5.2s infinite;
+}
+
+._9{
+	top: 80%;
+	left: 27%;
+	animation: estrella_1 4.2s infinite;
+}
+
+._10{
+	top: 50%;
+	left: 40%;
+	animation: estrella_2 2.7s infinite;
+}
+
+._11{
+	top: 90%;
+	left: 16%;
+	animation: estrella_2 5.2s infinite;
+}
+
+._12{
+	top: 63%;
+	left: 62%;
+	animation: estrella_2 4.2s infinite;
+}
+
+._13{
+	top: 11%;
+	left: 59%;
+	animation: estrella_2 2.7s infinite;
+}
+
+._14{
+	top: 26%;
+	left: 87%;
+	animation: estrella_2 1.2s infinite;
+}
+
+._15{
+	top: 77%;
+	left: 26%;
+	animation: estrella_2 5.2s infinite;
+}
+
+._16{
+	top: 17%;
+	left: 56%;
+	animation: estrella_2 5.2s infinite;
+}
+
+._17{
+	top: 87%;
+	left: 46%;
+	animation: estrella_2 5.2s infinite;
+}
+
+._18{
+	top: 27%;
+	left: 56%;
+	animation: estrella_2 5.2s infinite;
+}
+
+._19{
+	top: 87%;
+	left: 46%;
+	animation: estrella_3 1s infinite;
+}
+
+._20{
+	top: 27%;
+	left: 56%;
+	animation: estrella_3 3.2s infinite;
+}
+
+._21{
+	top: 11%;
+	left: 22%;
+	animation: estrella_3 1.5s infinite;
+}
+
+._22{
+	top: 33%;
+	left: 64%;
+	animation: estrella_3 2.2s infinite;
+}
+
+._23{
+	top: 57%;
+	left: 36%;
+	animation: estrella_3 4.2s infinite;
+}
+
+._24{
+	top: 78%;
+	left: 10%;
+	animation: estrella_3 6.1s infinite;
+}
+
+._25{
+	top: 28%;
+	left: 89%;
+	animation: estrella_3 3.2s infinite;
+}
+
+._26{
+	top: 24%;
+	left: 67%;
+	animation: estrella_3 5.2s infinite;
+}
+
+._27{
+	top: 56%;
+	left: 34%;
+	animation: estrella_3 1.2s infinite;
+}
+
+._28{
+	top: 27%;
+	left: 26%;
+	animation: estrella_3 2.2s infinite;
+}
+
+._29{
+	top: 80%;
+	left: 100%;
+	animation: estrella_1 3.2s infinite;
+}
+
+._30{
+	top: 90%;
+	left: 16%;
+	animation: estrella_1 2.2s infinite;
+}
+
+._31{
+	top: 20%;
+	left: 5%;
+	animation: estrella_1 2.2s infinite;
+}
+
+._32{
+	top: 37%;
+	left: 10%;
+	animation: estrella_1 2.2s infinite;
+}
+
+._33{
+	top: 4%;
+	left: 26%;
+	animation: estrella_1 2.2s infinite;
+}
+
+._34{
+	top: 13%;
+	left: 56%;
+	animation: estrella_1 2.2s infinite;
+}
+
+._35{
+	top: 35%;
+	left: 76%;
+	animation: estrella_1 2.2s infinite;
+}
+
+._38{
+	top: 80%;
+	left: 70%;
+	animation: estrella_2 2.2s infinite;
+}
+
+._39{
+	top: 27%;
+	left: 90%;
+	animation: estrella_2 2.2s infinite;
+}
+
+._40{
+	top: 77%;
+	left: 96%;
+	animation: estrella_2 2.2s infinite;
+}
+
+._41{
+	top: 64%;
+	left: 46%;
+	animation: estrella_2 2.2s infinite;
+}
+
+._42{
+	top: 10%;
+	left: 86%;
+	animation: estrella_2 2.2s infinite;
+}
+
+._43{
+	top: 47%;
+	left: 86%;
+	animation: estrella_2 2.2s infinite;
+}
+
+._44{
+	top: 57%;
+	left: 92%;
+	animation: estrella_2 2.2s infinite;
+}
+
+._45{
+	top: 37%;
+	left: 96%;
+	animation: estrella_3 2.2s infinite;
+}
+
+._46{
+	top: 57%;
+	left: 2%;
+	animation: estrella_3 2.2s infinite;
+}
+
+._47{
+	top: 27%;
+	left: 26%;
+	animation: estrella_3 2.2s infinite;
+}
+
+._48{
+	top: 12%;
+	left: 80%;
+	animation: estrella_3 2.2s infinite;
+}
+
+._49{
+	top: 40%;
+	left: 76%;
+	animation: estrella_2 2.2s infinite;
+}
+
+._50{
+	top: 20%;
+	left: 90%;
+	animation: estrella_3 2.2s infinite;
+}
+
+@keyframes estrella_1{
+	0%, 20%{
+		box-shadow: 0 0 2px 1px rgba(255,255,255,.3);
+	}
+	100%{
+		box-shadow: 0 0 4px 4px rgba(255,255,255,.3);
+	}
+}
+
+@keyframes estrella_2{
+	0%, 60%{
+		box-shadow: 0 0 2px 3px rgba(255,255,255,.3);
+	}
+	100%{
+		box-shadow: 0 0 4px 6px rgba(255,255,255,.3);
+	}
+}
+
+@keyframes estrella_3{
+	0%, 30%{
+		box-shadow: 0 0 2px 2px rgba(255,255,255,.3);
+	}
+	100%{
+		box-shadow: 0 2 1px 2px rgba(255,255,255,.3);
+	}
+}
